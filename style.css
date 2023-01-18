@@ -1,9 +1,9 @@
-body{
-    background-color:black;
-}
+
 .header{
     background-color:#057D57;
-    box-shadow: 0 3px 11px 0px rgba( 0 0 0);
+    box-shadow: 0 3px 11px 0px rgba( 0 0 0/ 10%);
+    position:relative;
+    z-index:10;
 }
 .header-container{
     margin:auto;
@@ -18,6 +18,7 @@ body{
 }
 .logo{
     margin-right:auto;
+    padding-block:15px;
 }
 .header-container a{
     text-decoration:none;
@@ -34,4 +35,66 @@ body{
 }
 .lane1{
     background-color:#057D57;
+}
+.lane2{
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.about{
+    margin:auto;
+    text-align:center;
+    padding-block:40px;
+    padding-inline: 20px;
+    font-size:30px;
+    font-weight:bold;
+    color:#023F2C;
+}
+.about p{
+   margin:0px;
+}
+.about-container{
+    margin:auto;
+    display:flex;
+    width:1000px;
+}
+.about-text{
+    padding-inline-start:20px;
+    line-height:1.8;
+    font-size: 22px;  
+    color:#666666; 
+}
+
+.lane3{
+    background-color:#023F2C;
+}
+.products-title p{
+    margin:0px;
+}
+.products-title{
+    margin:auto;
+    margin-block:0px;
+    font-size:24px;
+    font-weight:900;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    padding-block:40px;
+    text-align:center;
+}
+.products-container{
+    margin:auto;
+    display:flex;
+    width:1000px;
+    gap:50px;
+    padding-inline:25px;
+    padding-bottom:50px;
+    justify-content: center;
+}
+p{
+    margin:0px;
+}
+.products-container a{
+    border:1px solid white;
+    z-index:10;
+    position:relative;
+    box-shadow: 0px 3px 11px 0 rgba(256 256 256/ 75%);
 }
